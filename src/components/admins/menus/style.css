@@ -1,0 +1,39 @@
+.pagination {
+     display: flex;
+     list-style: none;
+     justify-content: center;
+     align-items: center;
+}
+
+.pagination li {
+     margin: 0 5px;
+}
+
+.pagination a {
+     text-decoration: none;
+     color: #000;
+     padding: 5px 10px;
+     border: 1px solid #ccc;
+     border-radius: 3px;
+}
+
+.pagination .active a {
+     background-color: #007bff;
+     color: #fff;
+}
+
+.pagination .previous,
+.pagination .next {
+     font-size: 14px;
+     padding: 8px 12px;
+}
+
+.pagination .page-item {
+     position: relative;
+}
+
+.pagination .page-link {
+     position: relative;
+     top: 0px;
+     /* Điều chỉnh vị trí dọc của số trang */
+}
